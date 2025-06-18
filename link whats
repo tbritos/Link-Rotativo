@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Redirecionando...</title>
+  <meta charset="utf-8">
+  <script type="text/javascript">
+    // --- EDITE A LISTA ABAIXO COM SEUS LINKS ---
+    const sdrLinks = [
+      "https://wa.me/551150439467?text=Olá,%20vim%20pelo%20QR%20Code!",
+      "https://wa.me/5584996805226?text=Olá,%20vim%20pelo%20QR%20Code!",
+      "https://wa.me/5584996025647?text=Olá,%20vim%20pelo%20QR%20Code!"
+    ];
+    // ---------------------------------------------
+
+    // Sorteia um link da lista
+    const randomIndex = Math.floor(Math.random() * sdrLinks.length);
+    const randomLink = sdrLinks[randomIndex];
+
+    // Redireciona o usuário
+    window.location.href = randomLink;
+  </script>
+</head>
+<body>
+  <p>Aguarde, estamos te redirecionando para um de nossos consultores...</p>
+</body>
+</html>
